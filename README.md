@@ -7,6 +7,7 @@ The www to our zza.
 ## requirements
 1. Basic knowledge of how to use a terminal (CLI)
 2. Hugo is installed
+3. Due to the current theme being used hugo-extended is required as well
 
 If you have Hugo installed, here are the steps to run the web server locally to test changes :
 1. Clone the repo
