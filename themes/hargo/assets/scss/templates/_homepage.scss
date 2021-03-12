@@ -271,11 +271,11 @@
     }
 
     thead {
-      background: darken($color: $light, $amount: 2);
+      background: darken($color: $rareorange, $amount: 2);
     }
 
     tbody {
-      background: $light;
+      background: $rareorange;
 
       td {
         text-align: left !important;
@@ -296,10 +296,10 @@
       font-weight: 500;
     }
   }
-  
+
   pre {
     padding: 10px 20px;
-    background: $light;
+    background: $rareorange;
   }
 }
 

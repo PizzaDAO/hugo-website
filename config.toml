@@ -23,8 +23,8 @@ theme = "hargo"
   link = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
   link = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  link = "plugins/google-map/gmap.js"
+  #[[params.plugins.js]]
+  #link = "plugins/google-map/gmap.js"
 
 
 ############################## navigation ###############################
@@ -32,56 +32,61 @@ theme = "hargo"
 [menu]
 
   [[menu.main]]
-  name = "Products"
-  URL = "products"
+  name = "Kitchen"
+  URL = "kitchen"
   weight = 1
 
   [[menu.main]]
-  name = "Blog"
-  URL = "blog"
+  name = "About"
+  URL = "about"
   weight = 2
 
   [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
+  name = "Artists"
+  URL = "artists"
   weight = 3
 
   [[menu.main]]
-  name = "Contact"
-  URL = "contact"
+  name = "Pizza Shops"
+  URL = "pizzashops"
+  weight = 4
+
+  [[menu.main]]
+  name = "Community"
+  URL = "community"
   weight = 4
 
   ############# footer menu #############
 
   [[menu.footer]]
-  name = "Products"
-  URL = "products"
+  name = "Kitchen"
+  URL = "kitchen"
   weight = 1
 
   [[menu.footer]]
-  name = "Blog"
-  URL = "blog"
+  name = "How it works"
+  URL = "howitworks"
   weight = 2
 
   [[menu.footer]]
-  name = "FAQ"
-  URL = "faq"
+  name = "Artists"
+  URL = "artists"
   weight = 3
 
   [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions"
+  name = "Community"
+  URL = "community"
   weight = 4
 
   [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
+  name = "Support"
+  URL = "support"
   weight = 5
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/rp-logo.gif"
 home = "Home"
 # Meta data
 description = "For Lazlo!"
@@ -103,8 +108,8 @@ copyright = "GPL-3"
 
   # Product Rating
   # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
-  [params.rating]
-  enable = true
+  #[params.rating]
+  #enable = true
 #  websiteID = "444334"
 #  publicKey = "811cf0927332bf51f2e12f84608594ac"
 

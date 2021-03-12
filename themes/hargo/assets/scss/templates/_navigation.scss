@@ -1,6 +1,6 @@
 .navigation {
   transition: .3s ease;
-  background: $white;
+  background: $raregreen !important;
   @include desktop {
     border-bottom: 1px solid $border-color;
     .navbar{
@@ -45,7 +45,7 @@
       transition: .3s ease;
       opacity: 0;
       transform: scale(.95);
-      background: $white;
+      background: $rareorange;
 
       @include desktop {
         display: none;
@@ -85,6 +85,16 @@
     text-transform: capitalize;
     font-size: 18px;
   }
+}
+
+.nav-img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+nav .nav-img {
+    max-width: 20%;
+    max-height: 20%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -128,7 +138,7 @@
   height: 100%;
   width: 100%;
   border: 0;
-  background: $white;
+  background: $rareorange;
   font-size: 20px;
   padding: 0;
 
