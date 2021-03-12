@@ -10,9 +10,9 @@ banner:
     label : "All Products"
     link : "products"
   # demo video
-  video:
-    enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+  #video:
+    #enable : true
+    #videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 #about:
