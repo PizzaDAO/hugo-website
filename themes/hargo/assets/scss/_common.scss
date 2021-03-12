@@ -223,3 +223,21 @@ textarea.form-control {
     max-width: 20%;
     max-height: 20%;
 }
+
+web3 > div {
+    background: $white;
+    border-color: $black;
+    border-width: 10px 10px 20px;
+    box-shadow: 0 1px 30px 0 rgba(26, 12, 54 , 0.25);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    max-width: 50%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: 45px;
+    padding: 10px;
+
+}

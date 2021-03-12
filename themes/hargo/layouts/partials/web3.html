@@ -1,6 +1,24 @@
 <web3>
   <div>
-    <h1>computer chip look here ;)</h1>
+    <!-- <h1>computer chip look here ;)</h1>  or not... lol -->
+    <p>Your Balance: Ξ</p>
+    <div class="product-slider">
+      {{ range .Params.Images }}
+      <div data-image="{{ .image | absURL }}">
+        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="product-img">
+      </div>
+      {{ end }}
+    </div>
 
+    <p>Current Price:</p>
+
+    <p>Pizzas Left</p>
+
+    <a href="buy" class="btn btn-primary mr-3">Buy</a>
+    <a href="sell" class="btn btn-light">Sell</a>
+    <a href="sell" class="btn btn-light">Redeem</a>
+
+    <p>BUY, SELL, & REDEEM<p>
+    <p>Rare Pizzas is exclusively collectible art.</p>
   </div>
 </web3>
