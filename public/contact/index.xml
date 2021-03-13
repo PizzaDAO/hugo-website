@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on RarePizzas</title>
-    <link>https://libernet.network/contact/</link>
+    <link>https://rarepizzas.com/contact/</link>
     <description>Recent content in Contact on RarePizzas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Feb 2021 11:22:16 +0600</lastBuildDate><atom:link href="https://libernet.network/contact/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Feb 2021 11:22:16 +0600</lastBuildDate><atom:link href="https://rarepizzas.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

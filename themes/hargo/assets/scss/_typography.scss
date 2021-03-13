@@ -1,5 +1,125 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+
+
+/*
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Hp2ywxg089UriCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Cp2ywxg089UriAWCrCBimCw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/dmsans/v6/rP2Cp2ywxg089UriASitCBimCw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Inter/Inter-Regular.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Inter/Inter-Regular.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Inter/Inter-Regular.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}*/
+
+@font-face {
+  font-family: 'Gliker';
+  src: url('../fonts/Gliker/Gliker-Black.otf') format('opentype'), url('../fonts/Gliker/Gliker-BlackExtraExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-BlackSemiExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-BlackExpanded.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker Condensed';
+  src: url('../fonts/Gliker/Gliker-BlackCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-BlackExtraCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-BlackSemiCondensed.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker';
+  src: url('../fonts/Gliker/Gliker-Bold.otf') format('opentype'), url('../fonts/Gliker/Gliker-BoldExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-BoldExtraExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-BoldSemiExpanded.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker Condensed';
+  src: url('../fonts/Gliker/Gliker-BoldCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-BoldExtraCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-BoldSemiCondensed.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker';
+  src: url('../fonts/Gliker/Gliker-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker';
+  src: url('../fonts/Gliker/Gliker-Regular.otf') format('opentype'), url('../fonts/Gliker/Gliker-RegularExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-RegularSemiExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-RegularExtraExpanded.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Condensed';
+  src: url('../fonts/Gliker/Gliker-RegularSemiCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-RegularCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-RegularExtraCondensed.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker';
+  src: url('../fonts/Gliker/Gliker-SemiBold.otf') format('opentype'), url('../fonts/Gliker/Gliker-SemiBoldSemiExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-SemiBoldExtraExpanded.otf') format('opentype'), url('../fonts/Gliker/Gliker-SemiBoldExpanded.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gliker Condensed';
+  src: url('../fonts/Gliker/Gliker-SemiBoldCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-SemiBoldExtraCondensed.otf') format('opentype'), url('../fonts/Gliker/Gliker-SemiBoldSemiCondensed.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 body {
   line-height: 1.4;

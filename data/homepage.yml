@@ -1,7 +1,7 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Collectible Pizza NFT"
+  title : "RARE PIZZAS"
   content : "Buy a Rare Pizza Box, an don May 22 the box will open to reveal your randomly generated Rare Pizza."
   #image : "images/banner.png"
   # button

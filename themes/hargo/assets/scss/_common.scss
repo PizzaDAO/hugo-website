@@ -68,6 +68,28 @@ a:hover {
   border-color: $border-color !important;
 }
 
+.button {
+    position: absolute;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 5px 5px 8px;
+    border-color: #000;
+    background-color: #fff;
+    font-family: Gliker, sans-serif;
+    color: #000;
+}
+
+.btn {
+    //position: absolute;
+    //margin-top: 100px;
+    border-style: solid;
+    border-width: 5px 5px 8px !important;
+    border-color: #000 !important;
+    background-color: #fff;
+    font-family: Gliker, sans-serif !important;
+    color: #000;
+}
+
 /* overlay */
 
 .overlay {
@@ -99,6 +121,23 @@ a:hover {
 
 .bg-gradient {
   background: $primary-gradient !important;
+}
+
+.heading {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    margin-top: 40px;
+    border-bottom: 4px none #000;
+    font-family: Gliker, sans-serif;
+    color: #fc5e5e;
+    font-size: 110px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, 0 -3px 0 #000, 3px 0 0 #000, -3px 0 0 #000, 0 11px 0 #000;
 }
 
 .hover-shadow {
@@ -203,13 +242,21 @@ textarea.form-control {
     margin-right: 10px;
 
     .nav-link {
-      border: 0;
+      /*border: 0;
       padding: 10px 0;
       color: $text-color;
       font-weight: 500;
       &.active{
-        color: $primary-color;
-      }
+        color: $primary-color;*/
+      -webkit-transition: color 200ms ease;
+      transition: color 200ms ease;
+      font-family: Gliker, sans-serif !important;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: none;
+
     }
   }
 }
@@ -219,9 +266,36 @@ textarea.form-control {
     max-width : 10%;
 }
 
+.nav-link {
+  /*border: 0;
+  padding: 10px 0;
+  color: $text-color;
+  font-weight: 500;
+  &.active{
+    color: $primary-color;*/
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-family: Gliker, sans-serif !important;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  color: #000 !important;
+}
+
 .card > img {
     max-width: 20%;
     max-height: 20%;
+}
+
+.subheader-a {
+  font-family: Gliker, sans-serif;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0em;
 }
 
 web3 > div {
@@ -240,4 +314,31 @@ web3 > div {
     margin-left: 45px;
     padding: 10px;
 
+}
+
+web3 p {
+    margin-top: 20px;
+    font-family: Gliker, sans-serif !important;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+web3 .comment {
+    margin-top: 20px;
+    font-family: Inter, sans-serif !important;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+web3 .balance {
+    margin-top: 20px;
+    font-family: Gliker, sans-serif !important;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
 }
